@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
+
+//styling
 import './App.css';
 
-function App() {
+// data 
+import data from './data/data.json'
+
+//components
+import Count from './components/Count';
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {data.counts.map(count => <Count key={count.id} data={count}/>)}
     </div>
   );
 }

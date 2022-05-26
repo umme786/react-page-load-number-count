@@ -1,0 +1,23 @@
+{
+    "counts": [
+        {
+            "id": "001",
+            "label": "A Really Big Number",
+            "number": "400000+",
+            "duration": "1"
+        },
+        {
+            "id": "002",
+            "label": "Ice Cream Flavors",
+            "number": "10000+",
+            "duration": "1"
+        },
+        {
+            "id": "003",
+            "label": "Customers Served",
+            "number": "300+",
+            "duration": "1"
+        }
+     
+    ]
+}
